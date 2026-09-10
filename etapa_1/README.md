@@ -63,25 +63,32 @@ Toda a parte digital opera em 3,3 V. A comunicação entre os blocos será digit
 
 ### Esboço da estrutura 3D
 
-<img width="348" height="407" alt="image" src="https://github.com/user-attachments/assets/2ad5146f-9e47-46a3-844a-dbb7b6ed69d8" />
-<img width="348" height="407" alt="image" src="https://github.com/user-attachments/assets/1803747f-6661-4a66-9d70-f34194499496" />
+![BOM](assets/Imagens_e_diagrama/BOM.svg)
 
-[Descrever: dimensões aproximadas, o motor, a célula de carga.]
+![dimensões](assets/Imagens_e_diagrama/dimensões.svg)
+
+![animação](assets/Imagens_e_diagrama/animação.gif)
+
 
 ### Norma aplicável
 
-Este projeto foi desenvolvido para atender aos requisitos da norma **BS EN 13819-1:2020 (Hearing protectors - Testing - Part 1: Physical test methods)**. Esta norma europeia estabelece os métodos de ensaios físicos que devem ser aplicados para avaliar o desempenho de protetores auditivos, garantindo que cumpram as especificações de segurança. 
+Este projeto foi desenvolvido para atender aos requisitos da norma **BS EN 13819-1:2020 (Hearing protectors - Testing - Part 1: Physical test methods)**. Esta norma europeia estabelece os métodos de ensaios físicos que devem ser aplicados para avaliar o desempenho de protetores auditivos, garantindo que cumpram as especificações de segurança.
 
 #### Requisitos Mecânicos
+
 *   **Dispositivo de Teste ([Seção 4.2.2.1](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma exige a utilização de uma estrutura com um transdutor de força para medir eletronicamente a carga exercida pelos abafadores.
-*   **Controle Dimensional ([Seção 4.4.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** O sistema deve garantir que as duas placas de suporte se mantenham estritamente paralelas durante o teste. A separação das superfícies externas dessas placas deve ser ajustável para corresponder a larguras de teste padronizadas, sendo 135 mm _(Tamanho P)_, 145 mm _(Tamanho M)_ e 150 mm _(Tamanho G)_.
-*   **Alinhamento do Centro de Medição ([Seções 4.4.2.2 e 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A estrutura mecânica deve garantir que as aberturas das almofadas sejam posicionadas de modo que seus centros coincidam exatamente com o eixo horizontal que passa pelo centro do transdutor de força.
-*   **Ajuste de Altura ([Tabela 4 e Seção 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A mecânica da bancada deve permitir o ajuste da altura do suporte do arco _(distância vertical em relação ao centro das conchas)_. Para abafadores usados sobre a cabeça, as alturas normatizadas são 122 mm _(Tamanho P)_, 130 mm _(Tamanho M)_ e 135 mm _(Tamanho G)_.
+
+* **Controle Dimensional ([Seção 4.4.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** O sistema deve garantir que as duas placas de suporte se mantenham estritamente paralelas durante o teste. A separação das superfícies externas dessas placas deve ser ajustável para corresponder a larguras de teste padronizadas, sendo 135 mm _(Tamanho P)_, 145 mm _(Tamanho M)_ e 150 mm _(Tamanho G)_.
+* **Alinhamento do Centro de Medição ([Seções 4.4.2.2 e 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A estrutura mecânica deve garantir que as aberturas das almofadas sejam posicionadas de modo que seus centros coincidam exatamente com o eixo horizontal que passa pelo centro do transdutor de força.
+* **Ajuste de Altura ([Tabela 4 e Seção 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A mecânica da bancada deve permitir o ajuste da altura do suporte do arco _(distância vertical em relação ao centro das conchas)_. Para abafadores usados sobre a cabeça, as alturas normatizadas são 122 mm _(Tamanho P)_, 130 mm _(Tamanho M)_ e 135 mm _(Tamanho G)_.
 
 #### Temporização e Monitoramento
-*   **Janela de Leitura Crítica ([Seção 4.4.3.2.4](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma determina que a medição oficial da força do arco deve ser lida no indicador exata e automaticamente em 120 ± 5 segundos após a liberação do protetor no suporte.
-*   **Condições de Contorno ([Seção 4.1.2](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma estipula atmosferas específicas de condicionamento e teste, exigindo uma temperatura de 22 ± 5 °C e uma umidade relativa não superior a 85%.
-*   **Período de Descanso entre Ensaios ([Seção 4.4.3.2.5](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** Quando um mesmo protetor auditivo for submetido a testes sequenciais em diferentes larguras e alturas, o sistema deve respeitar um período mínimo de descanso de 4 horas antes da próxima medição.
+
+* **Janela de Leitura Crítica ([Seção 4.4.3.2.4](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma determina que a medição oficial da força do arco deve ser lida no indicador exata e automaticamente em 120 ± 5 segundos após a liberação do protetor no suporte.
+* **Condições de Contorno ([Seção 4.1.2](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma estipula atmosferas específicas de condicionamento e teste, exigindo uma temperatura de 22 ± 5 °C e uma umidade relativa não superior a 85%.
+* **Período de Descanso entre Ensaios ([Seção 4.4.3.2.5](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** Quando um mesmo protetor auditivo for submetido a testes sequenciais em diferentes larguras e alturas, o sistema deve respeitar um período mínimo de descanso de 4 horas antes da próxima medição.
+
+teste
 
 ## Referências
 
