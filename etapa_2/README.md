@@ -6,7 +6,7 @@ Esta etapa tem como objetivos:
 - Desenvolvimento 3d da estrutura de teste externa;
 - Projetar os esquemáticos do circuito de comunicação e alimentação.
 
-**(Parágrafo com visão geral da etapa)**
+**(Parágrafo com visão geral da etapa)** [...]
 
 ## Desenvolvimento
 
