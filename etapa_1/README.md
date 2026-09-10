@@ -97,13 +97,17 @@ A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (F
 * **Alinhamento do Centro de Medição ([Seções 4.4.2.2 e 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A estrutura mecânica deve garantir que as aberturas das almofadas sejam posicionadas de modo que seus centros coincidam exatamente com o eixo horizontal que passa pelo centro do transdutor de força.
 * **Ajuste de Altura ([Tabela 4 e Seção 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A mecânica da bancada deve permitir o ajuste da altura do suporte do arco _(distância vertical em relação ao centro das conchas)_. Para abafadores usados sobre a cabeça, as alturas normatizadas são 122 mm _(Tamanho P)_, 130 mm _(Tamanho M)_ e 135 mm _(Tamanho G)_.
 
+### Descrição da Norma
+
+** BS EN 13819-1:2020: Ensaios Físicos de Protetores Auditivos **
+
+Esta norma europeia especifica os métodos padronizados de ensaios físicos para protetores auditivos, como abafadores e plugues.
+
 #### Temporização e Monitoramento
 
 * **Janela de Leitura Crítica ([Seção 4.4.3.2.4](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma determina que a medição oficial da força do arco deve ser lida no indicador exata e automaticamente em 120 ± 5 segundos após a liberação do protetor no suporte.
 * **Condições de Contorno ([Seção 4.1.2](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma estipula atmosferas específicas de condicionamento e teste, exigindo uma temperatura de 22 ± 5 °C e uma umidade relativa não superior a 85%.
 * **Período de Descanso entre Ensaios ([Seção 4.4.3.2.5](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** Quando um mesmo protetor auditivo for submetido a testes sequenciais em diferentes larguras e alturas, o sistema deve respeitar um período mínimo de descanso de 4 horas antes da próxima medição.
-
-teste
 
 ## Referências
 
