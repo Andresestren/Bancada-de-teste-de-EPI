@@ -1,6 +1,8 @@
 # Bancada automatiza para determinação de força do arco de protetores auditivos tipo concha
 
-**Bancada automatiza o ensaio de força do arco de protetores auditivos, definido pela norma BS EN 13819-1. A concha do protetor é apoiada sobre um prato montado em uma célula de carga, e um motor de passo faz o deslocamento da concha do prato. A leitura da força é registrada automaticamente 120 segundos após a liberação, enquanto um sensor acompanha a temperatura e a umidade exigidas pela norma. O ensaio é operado pelo computador ou pelos comandos da própria bancada.**
+**Bancada automatiza o ensaio de força do arco de protetores auditivos, definido pela norma BS EN 13819-1. A concha do protetor é apoiada sobre um prato montado em uma célula de carga, e um motor de passo faz o deslocamento da concha do prato. A leitura da força é registrada automaticamente 120 segundos após a liberação, enquanto um sensor acompanha a temperatura e a umidade exigidas pela norma. O ensaio é operado pelo computador ou pelos comandos da própria bancada.
+
+Essa força é o que mantém as conchas pressionadas contra a cabeça: se for baixa demais, a vedação falha e o protetor deixa de atenuar o ruído; se for alta demais, o usuário sente desconforto e tende a retirar o equipamento antes do fim da jornada. Medi-la é, portanto, parte da verificação de que o protetor realmente cumpre a função de proteger a audição do trabalhador.**
 
 O desenvolvimento foi divido em quatro etapas:
 
