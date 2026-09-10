@@ -99,7 +99,7 @@ A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (F
 
 ### Descrição da Norma
 
-** BS EN 13819-1:2020: Ensaios Físicos de Protetores Auditivos **
+**BS EN 13819-1:2020: Ensaios Físicos de Protetores Auditivos**
 
 Esta norma europeia especifica os métodos padronizados de ensaios físicos para protetores auditivos, como abafadores e plugues.
 
