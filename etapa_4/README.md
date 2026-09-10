@@ -5,15 +5,15 @@ Esta etapa tem como objetivos:
 - Implementação do software e firmware;
 - Teste e ajustes necessários na estrutura e software.
 
-**(Parágrafo com visão geral da etapa)** [...]
+**(Parágrafo com visão geral da etapa.)** [...]
 
 ## Desenvolvimento
 
-Apresentar o desenvolvimento da etapa. [...]
+**(Apresentar o desenvolvimento da etapa.)** [...]
 
 ## Testes
 
-Descrição dos testes/validações realizadas. [...]
+**(Descrição dos testes/validações realizadas.)** [...]
 
 ## Referências (links/datasheets/livros)
 
