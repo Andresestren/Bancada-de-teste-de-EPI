@@ -1,6 +1,6 @@
-# Bancada de Teste de EPI
+# Bancada automatiza para determinação de força do arco de protetores auditivos tipo concha
 
-**(Adicionar abaixo UM parágrafo com visão geral do projeto.)**
+**Bancada automatiza o ensaio de força do arco de protetores auditivos, definido pela norma BS EN 13819-1. A concha do protetor é apoiada sobre um prato montado em uma célula de carga, e um motor de passo faz o deslocamento da concha do prato. A leitura da força é registrada automaticamente 120 segundos após a liberação, enquanto um sensor acompanha a temperatura e a umidade exigidas pela norma. O ensaio é operado pelo computador ou pelos comandos da própria bancada.**
 
 O desenvolvimento foi divido em quatro etapas:
 
