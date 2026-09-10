@@ -1,6 +1,6 @@
 # Etapa 1
 
-A etapa 1 define a arquitetura do equipamento antes da escolha dos componentes. Foram produzidos o diagrama de blocos de hardware e comunicação, a especificação funcional de cada bloco, o esboço da estrutura 3D e o levantamento da norma aplicável. Com a arquitetura fechada e os requisitos definidos, a seleção dos componentes na etapa seguinte passa a ser feita por critério técnico. **[Ajustar: acrescentar uma frase dizendo o que o equipamento faz.]**
+Esta etapa define a arquitetura do equipamento inicial, antes da escolha dos componentes. Foram produzidos o diagrama de blocos de hardware e comunicação, a especificação funcional de cada bloco, o esboço da estrutura 3D e o levantamento da norma aplicável. Com a arquitetura fechada e os requisitos definidos, a seleção dos componentes passa a ser feita por critério técnico e, a partir do diagrama criado, serão desenvolvidos os esquemáticos do circuito e diagrama de estados na etapa seguinte.
 
 ## Desenvolvimento
 
@@ -13,7 +13,7 @@ A etapa 1 define a arquitetura do equipamento antes da escolha dos componentes. 
 | Bloco | Função |
 | :--- | :--- |
 | **Entrada de 24 V** | Fonte externa que alimenta a parte de potência do motor. |
-| **Proteção da entrada de 24 V** | Só alimenta o circuito em condição segura, cortando a energia em caso de falha. |
+| **Proteção da entrada de 24 V** | Alimenta o circuito em condição segura, cortando a energia em caso de falha. |
 | **Monitor de energia (24 V)** | Mede tensão, corrente e potência dessa linha. |
 | **Entrada USB (5 V)** | Alimenta a eletrônica de sinal e conecta o equipamento ao computador. |
 | **Proteção da entrada de 5 V** | Mesma função, aplicada à linha de 5 V. |
@@ -42,7 +42,9 @@ A etapa 1 define a arquitetura do equipamento antes da escolha dos componentes. 
 
 ### Especificação dos componentes de hardware
 
-Os componentes ainda não foram definidos; esta seção estabelece o que cada bloco precisa atender. O sistema é alimentado por 24 V (potência do motor) e por 5 V da porta USB, que é também o canal de comunicação com o software de PC que opera o equipamento. Toda a parte digital opera em 3,3 V.
+Os componentes ainda não foram definidos, esta seção estabelece o que cada bloco precisa atender. O sistema é alimentado por 24 V (potência do motor) e por 5 V da porta USB, que é também o canal de comunicação com o software de PC que opera o equipamento. 
+
+Toda a parte digital opera em 3,3 V. A comunicação entre os blocos será digital, em 3,3 V, com preferência por periféricos que compartilhem o mesmo barramento para economizar pinos. As interfaces serão definidas junto com a escolha dos componentes.
 
 | Bloco | O que precisa atender |
 | :--- | :--- |
@@ -59,19 +61,26 @@ Os componentes ainda não foram definidos; esta seção estabelece o que cada bl
 | **Proteção da porta USB** | Desviar as descargas eletrostáticas sem degradar o sinal. |
 | **Conectores externos** | Folga de corrente no 24 V e no motor; boa fixação do USB; conectores distintos entre si. |
 
-A comunicação entre os blocos será digital, em 3,3 V, com preferência por periféricos que compartilhem o mesmo barramento para economizar pinos. As interfaces serão definidas junto com a escolha dos componentes.
-
 ### Esboço da estrutura 3D
 
-**[ imagens do esboço.]**
-Descrever: dimensões aproximadas, o motor, a célula de carga.
+<img width="348" height="407" alt="image" src="https://github.com/user-attachments/assets/2ad5146f-9e47-46a3-844a-dbb7b6ed69d8" />
+<img width="348" height="407" alt="image" src="https://github.com/user-attachments/assets/1803747f-6661-4a66-9d70-f34194499496" />
+
+[Descrever: dimensões aproximadas, o motor, a célula de carga.]
 
 ### Norma aplicável
 
-**[A ESCREVER ]**
+Este projeto foi desenvolvido para atender aos requisitos da norma **BS EN 13819-1:2020 (Hearing protectors - Testing - Part 1: Physical test methods)**. Esta norma europeia estabelece os métodos de ensaios físicos que devem ser aplicados para avaliar o desempenho de protetores auditivos, garantindo que cumpram as especificações de segurança. 
 
+#### Requisitos Mecânicos
+*   **Dispositivo de Teste (Seção 4.2.2.1):** A norma exige a utilização de uma estrutura com um transdutor de força para medir eletronicamente a carga exercida pelos abafadores.
+*   **Capacidade de Carga:** A célula de carga deve ser dimensionada para medir forças na faixa de **0 a 40 N** _(ou 0 a 5 Kg)_, cobrindo as exigências dos testes de pressão das almofadas e tensão do arco.
+*   **Controle Dimensional (Seção 4.4.3):** O sistema deve garantir que as duas placas de suporte se mantenham estritamente paralelas durante o teste. A separação das superfícies externas dessas placas deve ser ajustável para corresponder a larguras de teste padronizadas, sendo 135 mm _(Tamanho P)_, 145 mm _(Tamanho M)_ e 150 mm _(Tamanho G)_.
 
+#### Temporização e Monitoramento
+*   **Janela de Leitura Crítica (Seção 4.4.3.2.4):** A norma determina que a medição oficial da força do arco deve ser lida no indicador exata e automaticamente em 120 ± 5 segundos após a liberação do protetor no suporte.
+*   **Condições de Contorno (Seção 4.1.2):** A norma estipula atmosferas específicas de condicionamento e teste, exigindo uma temperatura de 22 ± 5 °C e uma umidade relativa não superior a 85%.
 
-## Referências (links/datasheets/livros)
+## Referências
 
-**[A COMPLETAR — incluir a norma citada e as fontes consultadas. Toda referência precisa estar citada no texto.]**
+Norma **EN 13819-1-2020** 1 via _BSI Standards Publication_: [EN 13819-1-2020 1.pdf](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)
