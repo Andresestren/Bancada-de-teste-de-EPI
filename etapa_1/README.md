@@ -89,6 +89,12 @@ A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (F
 
 *Figura 4 — Movimento de colocação e liberação.*
 
+### Descrição da Norma
+
+**BS EN 13819-1:2020: Ensaios Físicos de Protetores Auditivos**
+
+Esta norma europeia especifica os métodos padronizados de ensaios físicos para protetores auditivos, como abafadores e plugues.
+
 #### Requisitos Mecânicos
 
 * **Dispositivo de Teste ([Seção 4.2.2.1](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma exige a utilização de uma estrutura com um transdutor de força para medir eletronicamente a carga exercida pelos abafadores.
@@ -96,12 +102,6 @@ A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (F
 * **Controle Dimensional ([Seção 4.4.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** O sistema deve garantir que as duas placas de suporte se mantenham estritamente paralelas durante o teste. A separação das superfícies externas dessas placas deve ser ajustável para corresponder a larguras de teste padronizadas, sendo 135 mm _(Tamanho P)_, 145 mm _(Tamanho M)_ e 150 mm _(Tamanho G)_.
 * **Alinhamento do Centro de Medição ([Seções 4.4.2.2 e 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A estrutura mecânica deve garantir que as aberturas das almofadas sejam posicionadas de modo que seus centros coincidam exatamente com o eixo horizontal que passa pelo centro do transdutor de força.
 * **Ajuste de Altura ([Tabela 4 e Seção 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A mecânica da bancada deve permitir o ajuste da altura do suporte do arco _(distância vertical em relação ao centro das conchas)_. Para abafadores usados sobre a cabeça, as alturas normatizadas são 122 mm _(Tamanho P)_, 130 mm _(Tamanho M)_ e 135 mm _(Tamanho G)_.
-
-### Descrição da Norma
-
-**BS EN 13819-1:2020: Ensaios Físicos de Protetores Auditivos**
-
-Esta norma europeia especifica os métodos padronizados de ensaios físicos para protetores auditivos, como abafadores e plugues.
 
 #### Temporização e Monitoramento
 
