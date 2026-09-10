@@ -7,6 +7,7 @@ Esta etapa define a arquitetura do equipamento inicial, antes da escolha dos com
 ### Diagrama de blocos de hardware e comunicação
 
 ![Diagrama de blocos](assets/Imagens_e_diagrama/Diagrama_DEFA.svg)
+*Figura 1 — Diagrama de blocos.*
 
 **Alimentação**
 
@@ -62,21 +63,35 @@ Toda a parte digital opera em 3,3 V. A comunicação entre os blocos será digit
 | **Conectores externos** | Folga de corrente no 24 V e no motor; boa fixação do USB; conectores distintos entre si. |
 
 ### Esboço da estrutura 3D
+ 
+A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (Figura 3). O motor gira o fuso roscado, que desloca a régua de acoplamento; os eixos passantes atravessam o anteparo e levam o movimento à régua de deslocamento, que coloca e libera a concha do protetor sobre o prato. O prato é sustentado pela célula de carga, onde a força do arco é medida (Figura 4).
+ 
+![Peças da estrutura](assets/Imagens_e_diagrama/BOM.svg)
+*Figura 2 — Peças da estrutura.*
+ 
+| Item | Peça | Função |
+| :--- | :--- | :--- |
+| 1 | Anteparo traseiro | Sustenta o motor e o fuso. |
+| 2 | Régua de acoplamento | Abriga a castanha do fuso e recebe o movimento linear. |
+| 3 | Régua de deslocamento | Coloca e libera a concha sobre o prato. |
+| 4 | Prato balança | Superfície de apoio da concha. |
+| 5 | Eixo passante | Liga as duas réguas através do anteparo. |
+| 6 | Célula de carga | Sustenta o prato e converte a força em sinal elétrico. |
+| 7 | Anteparo frontal | Sustenta a célula de carga e o prato. |
+| 8 | Fuso roscado | Transforma o giro em deslocamento linear. |
+| 9 | Motor de passo | Aciona o fuso. |
 
-![BOM](assets/Imagens_e_diagrama/BOM.svg)
+![Dimensões](assets/Imagens_e_diagrama/dimensões.svg)
 
-![dimensões](assets/Imagens_e_diagrama/dimensões.svg)
+*Figura 3 — Dimensões principais.*
 
-![animação](assets/Imagens_e_diagrama/animação.gif)
+![Animação](assets/Imagens_e_diagrama/animação.gif)
 
-
-### Norma aplicável
-
-Este projeto foi desenvolvido para atender aos requisitos da norma **BS EN 13819-1:2020 (Hearing protectors - Testing - Part 1: Physical test methods)**. Esta norma europeia estabelece os métodos de ensaios físicos que devem ser aplicados para avaliar o desempenho de protetores auditivos, garantindo que cumpram as especificações de segurança.
+*Figura 4 — Movimento de colocação e liberação.*
 
 #### Requisitos Mecânicos
 
-*   **Dispositivo de Teste ([Seção 4.2.2.1](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma exige a utilização de uma estrutura com um transdutor de força para medir eletronicamente a carga exercida pelos abafadores.
+* **Dispositivo de Teste ([Seção 4.2.2.1](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma exige a utilização de uma estrutura com um transdutor de força para medir eletronicamente a carga exercida pelos abafadores.
 
 * **Controle Dimensional ([Seção 4.4.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** O sistema deve garantir que as duas placas de suporte se mantenham estritamente paralelas durante o teste. A separação das superfícies externas dessas placas deve ser ajustável para corresponder a larguras de teste padronizadas, sendo 135 mm _(Tamanho P)_, 145 mm _(Tamanho M)_ e 150 mm _(Tamanho G)_.
 * **Alinhamento do Centro de Medição ([Seções 4.4.2.2 e 4.4.3.2.3](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A estrutura mecânica deve garantir que as aberturas das almofadas sejam posicionadas de modo que seus centros coincidam exatamente com o eixo horizontal que passa pelo centro do transdutor de força.
