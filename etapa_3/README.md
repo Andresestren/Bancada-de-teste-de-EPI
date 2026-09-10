@@ -5,15 +5,15 @@ Esta etapa tem como objetivos:
 - Realizar os testes do motor e célula de carga;
 - Finalizar o projeta da PCI.
 
-**(Parágrafo com visão geral da etapa)** [...]
+**(Parágrafo com visão geral da etapa.)** [...]
 
 ## Desenvolvimento
 
-Apresentar o desenvolvimento da etapa. [...]
+**(Apresentar o desenvolvimento da etapa.)** [...]
 
 ## Testes
 
-Descrição dos testes/validações realizadas. [...]
+**(Descrição dos testes/validações realizadas.)** [...]
 
 ## Referências (links/datasheets/livros)
 
