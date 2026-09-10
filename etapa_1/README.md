@@ -103,6 +103,7 @@ A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (F
 * **Condições de Contorno ([Seção 4.1.2](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma estipula atmosferas específicas de condicionamento e teste, exigindo uma temperatura de 22 ± 5 °C e uma umidade relativa não superior a 85%.
 * **Período de Descanso entre Ensaios ([Seção 4.4.3.2.5](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** Quando um mesmo protetor auditivo for submetido a testes sequenciais em diferentes larguras e alturas, o sistema deve respeitar um período mínimo de descanso de 4 horas antes da próxima medição.
 
+teste
 
 ## Referências
 
