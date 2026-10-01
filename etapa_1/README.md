@@ -89,6 +89,12 @@ A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (F
 
 *Figura 4 — Movimento de colocação e liberação.*
 
+### Descrição da Norma
+
+**BS EN 13819-1:2020: Ensaios Físicos de Protetores Auditivos**
+
+Esta norma europeia especifica os métodos padronizados de ensaios físicos para protetores auditivos, como abafadores e plugues.
+
 #### Requisitos Mecânicos
 
 * **Dispositivo de Teste ([Seção 4.2.2.1](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma exige a utilização de uma estrutura com um transdutor de força para medir eletronicamente a carga exercida pelos abafadores.
@@ -102,8 +108,6 @@ A estrutura tem dois anteparos verticais e mede cerca de 180 × 209 × 107 mm (F
 * **Janela de Leitura Crítica ([Seção 4.4.3.2.4](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma determina que a medição oficial da força do arco deve ser lida no indicador exata e automaticamente em 120 ± 5 segundos após a liberação do protetor no suporte.
 * **Condições de Contorno ([Seção 4.1.2](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** A norma estipula atmosferas específicas de condicionamento e teste, exigindo uma temperatura de 22 ± 5 °C e uma umidade relativa não superior a 85%.
 * **Período de Descanso entre Ensaios ([Seção 4.4.3.2.5](https://github.com/user-attachments/files/32043709/EN.13819-1-2020.1.pdf)):** Quando um mesmo protetor auditivo for submetido a testes sequenciais em diferentes larguras e alturas, o sistema deve respeitar um período mínimo de descanso de 4 horas antes da próxima medição.
-
-teste
 
 ## Referências
 
