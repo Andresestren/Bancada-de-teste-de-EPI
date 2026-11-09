@@ -40,7 +40,17 @@ Antes da geração dos arquivos de fabricação foram executadas as verificaçõ
 #### Placa confeccionada
 ![Placa recebida](assets/Imagens_e_diagrama/pci_fabricada.jpg)
 
+### Desenvolvimento 3D do case da PCI
 
+O case foi modelado no SolidWorks. A primeira versão era dividida em duas peças, tampa e base, em alumínio de 2 mm. Na fabricação, o processo de dobra e corte não atendeu às dimensões projetadas, e a peça foi reprovada.
+
+A segunda versão foi redesenhada em função do processo: a espessura do alumínio passou de 2 mm para 1 mm e os raios de dobra foram padronizados para chapa dessa espessura. O case também foi dividido em três peças, o que facilita tanto a produção quanto a montagem. O projeto está finalizado e a peça em produção.
+
+#### Case versão 1
+![Case versão 1](assets/Imagens_e_diagrama/case_v1.jpg)
+
+#### Case versão 2
+![Case versão 2](assets/Imagens_e_diagrama/case_v2.png)
 
 ### Montagem e ajuste da estrutura
 
@@ -60,6 +70,27 @@ A estrutura foi validada quase por completo. A exceção é o suporte do pino de
 ## Testes
 
 O registro completo da validação está em [Testes de Hardware](Testes_de_Hardware.md), com os códigos em [`Codigos/`](Codigos/). Instrumentos: multímetro Fluke 289 e osciloscópio Rigol DS4034.
+
+### Teste do motor
+
+Com 900 mA RMS, 16 micropassos e StealthChop2, o motor girou nos dois sentidos conforme programado. O consumo em 24 V foi de 165,2 mA girando (4,03 W) e 81,0 mA com corrente de hold, contra 10,5 mA com o driver desabilitado — 6,6 % do limite de 2,5 A do eFuse.
+
+Esse ensaio também validou o shunt de 20 mΩ do INA226 de 24 V, que na seção de alimentação não pôde ser conferido por falta de corrente: a queda de 3,290 mV corresponde a 164,5 mA contra 165,2 mA reportados, diferença de 0,4 %.
+
+### Teste da célula de carga
+
+A leitura inicial do ADS1232 oscilava de forma incompatível com a célula em repouso, com
+saltos periódicos para valores muito acima da faixa. A medição dos intervalos entre
+conversões localizou a causa no firmware, e não no circuito: sem o pulso de instrução
+após os 24 bits de dados, a leitura seguinte era interpretada pelo conversor como pedido
+de calibração de offset, que o inibe por oito ciclos. A assinatura era inequívoca, 32 %
+dos intervalos em 0,22 ms seguidos de 31 % em 801,5 ms, exatamente oito períodos
+nominais, com taxa efetiva de 3,48 SPS contra os 10,0 de projeto.
+
+Corrigido o pulso, 247 conversões consecutivas em 100,066 ms ± 0,05 ms, sem anomalia. A
+calibração com massa padrão de 500 g resultou em 455,0 contagens/g (46.393 contagens/N),
+confirmada em 453,78 contagens/g por medição independente, 0,26 % de diferença. O ruído
+ficou em 0,09 g e o fundo de escala de 40 N ocupa 23 % da faixa de 24 bits. Bloco aprovado.
 
 
 
